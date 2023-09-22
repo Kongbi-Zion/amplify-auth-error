@@ -6,8 +6,8 @@
 <script>
 import { Auth } from "aws-amplify";
 export default {
-  mounted() {
-    const user = Auth.currentAuthenticatedUser();
+  async mounted() {
+    const user = await Auth.currentAuthenticatedUser();
     console.log("user : ", user);
   },
 };
