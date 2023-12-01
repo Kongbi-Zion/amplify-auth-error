@@ -1,8 +1,8 @@
 <template>
   <button class="button" @click="federatedGoogleSignup">
     SignIn with google
-    <NuxtLink to="/content/tttttttttttt">Move</NuxtLink>
   </button>
+  <NuxtLink to="/content/tttttttttttt">Move</NuxtLink>
 </template>
 
 <script>
