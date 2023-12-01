@@ -2,6 +2,8 @@
 export default defineNuxtConfig({
   plugins: [{ src: "plugins/amplify.js", mode: "client" }],
 
+  ssr: true,
+
   vite: {
     resolve: {
       alias: {
